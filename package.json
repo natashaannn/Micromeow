@@ -1,0 +1,31 @@
+{
+  "name": "micromeow",
+  "version": "1.0.0",
+  "description": "An svg pixel art cat generator",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src/index.ts",
+    "src/components/Micromeow.tsx"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "vite": "^6.2.2",
+    "typescript": "^5.8.2"
+  }
+}

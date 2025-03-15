@@ -1,0 +1,17 @@
+node_modules
+dist
+build
+coverage
+test
+tests
+example
+*.log
+*.ts
+*.tsx
+*.map
+.vscode
+.git
+.idea
+.eslint*
+.prettier*
+package-lock.json

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <g id="body" transform="translate(5,3)">
+        <g>
+            <rect fill="black" width="6" height="1"/>
+            <rect fill="orange" y="1" width="6" height="1" stroke="orange" stroke-width="0.1"/>
+            <rect fill="black" x="6" y="1" width="1" height="1"/>
+            <rect fill="orange" y="2" width="7" height="1" stroke="orange" stroke-width="0.1"/>
+            <rect fill="orange" y="3" width="8" height="2" stroke="orange" stroke-width="0.1"/>
+            <rect fill="black" x="7" y="2" width="1" height="3"/>
+            <rect fill="black" y="5" width="8" height="1"/>
+        </g>
+    </g>
+    <g id="arms" transform="translate(0,7)">
+        <rect fill="black" width="1" height="1"/>
+        <rect fill="orange" x="1" width="4" height="1" stroke="orange" stroke-width="0.1"/>
+        <rect fill="black" y="1" width="5" height="1"/>
+    </g>
+
+    <g id="tail" transform="translate(10,5)">
+        <rect fill="black" x="2" width="1" height="1"/>
+        <rect fill="orange" x="2" y="1" width="1" height="4" stroke="orange" stroke-width="0.1"/>
+        <rect fill="black" x="3" y="1"width="1" height="6"/>
+        <rect fill="orange" x="1" y="5" width="2" height="1" stroke="orange" stroke-width="0.1"/>
+        <rect fill="orange" x="1" y="6" width="1" height="1" stroke="orange" stroke-width="0.1"/>
+        <rect fill="black" x="2" y="6" width="1" height="1"/>
+        <rect fill="black" y="7" width="2" height="1"/>
+        <rect fill="black" x="1" y="3" width="1" height="2"/>
+        <rect fill="black" y="5" width="1" height="2"/>
+    </g>
+    <g id="head">
+        <g id="ear">
+            <rect width="3" height="1" fill="black"/>
+            <rect width="1" height="1" y="1" fill="black"/>
+            <rect width="2" height="1" x="1" y="1" fill="#bc7f0d"/>
+        </g>
+        <use xlink:href="#ear" transform="translate(8,0) scale(-1,1)"/>
+        
+        <g id="face" transform="translate(0,2)">
+            <g fill="black">
+                <rect height="3" width="1"/>
+                <rect height="2" width="1" x="1" y="3"/>
+                <rect height="1" width="2" x="2" y="4"/>
+            </g>
+            <g fill="orange" transform="translate(1,0)" stroke="orange" stroke-width="0.1">
+                <rect width="3" height="3"/>
+                <rect width="2" height="1" x="1" y="3"/>
+            </g>
+        </g>
+        <use xlink:href="#face" transform="translate(8,0) scale(-1,1)"/>
+        <g id="eye" transform="translate(2,3)">
+            <rect width="1" height="1" fill="black"/>
+            <rect width="1" height="1" y="1" fill="#530c0c"/>
+        </g>
+        <use xlink:href="#eye" transform="translate(8,0) scale(-1,1)"/>
+    </g>
+</svg>
