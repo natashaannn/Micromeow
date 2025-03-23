@@ -1,9 +1,13 @@
 # Micromeow
 
-Micromeow is a customizable React component for rendering a stylized cat SVG with configurable features like eye color, fur color, tail length, and patterns.
+Meet <strong>Micromeow</strong>, a customizable SVG cat component inspired by my cat, Pip! 🐾
 
-![image](https://github.com/user-attachments/assets/c1b0ba0e-97a9-4945-b0c3-72fb739816cf)
+![alt text](image.png)
 
+## Online Demo
+🌐 Try the <a href="https://natashaannn.com/micromeow!" target="_blank">interactive online demo</a> to play with more options.</p>
+    
+<i>🚧 The animation feature from the online demo is still pending in this package.</i>
 
 ## Installation
 
@@ -60,6 +64,8 @@ npm run dev
 ```
 
 This will start a development server where you can view and interact with the component.
+
+✨ Customize various attributes of the cat in <code>src/example.tsx</code> to see changes in real-time!
 
 ## Contributing
 
