@@ -1,10 +1,13 @@
 {
-  "name": "micromeow",
-  "version": "1.0.0",
+  "name": "@natashaannn/micromeow",
+  "version": "1.0.1",
   "description": "An svg pixel art cat generator",
   "repository": {
     "type": "git",
     "url": "https://github.com/natashaannn/Micromeow"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "main": "dist/index.js",
   "module": "dist/index.js",
